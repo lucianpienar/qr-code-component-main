@@ -62,3 +62,14 @@ html {
   color: #999;
   font-weight: 500;
 }
+
+.attribution {
+  color: #333;
+}
+
+.attribution a:link,
+.attribution a:visited {
+  text-decoration: none;
+  color: currentColor;
+  border-bottom: 1px solid hsl(218, 44%, 22%);
+}
