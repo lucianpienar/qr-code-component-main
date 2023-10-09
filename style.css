@@ -8,9 +8,13 @@ html {
   font-size: 62.5%;
 }
 
-.container {
+.main-container {
+  margin: 0 auto;
   max-width: 144rem;
-  margin: 10rem;
+}
+
+.container {
+  margin: 3rem;
   background-color: hsl(212, 45%, 89%);
   padding: 10rem;
 
@@ -73,4 +77,18 @@ html {
   text-decoration: none;
   color: currentColor;
   border-bottom: 1px solid hsl(218, 44%, 22%);
+}
+
+/* ====================================== */
+/* MEDIA QUERIES - MOBILE 368px = 23em */
+/* ====================================== */
+
+@media (max-width: 23em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .container {
+    margin: 2rem;
+  }
 }
