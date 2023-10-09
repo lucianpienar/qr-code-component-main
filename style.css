@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: grid;
+  justify-self: center;
+  justify-items: center;
+  align-items: stretch;
+  background-color: hsl(220, 15%, 55%);
+  grid-template-columns: 2fr 1fr 2fr;
+  padding: 15%;
+}
+
+.qr-container {
+  grid-column: 2 / 3;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: hsl(212, 45%, 89%);
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.qr-code img {
+  max-width: 80%;
+  height: auto;
+}
